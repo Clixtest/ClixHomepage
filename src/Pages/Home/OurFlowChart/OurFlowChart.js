@@ -2,10 +2,12 @@ import React from 'react';
 import flowChartImg from '../../../Assets/img/our flow chart-img.png'
 import flowChartBg from '../../../Assets/img/flowchart-bg-img.png'
 import shape02 from '../../../Assets/shape/shape-img02.png'
+import collectionBgImg from '../../../Assets/img/collection-bg-img.png'
+
 import './OurFlowChart.css'
 const OurFlowChart = () => {
     return (
-        <div className="flow-chart-bg hero  h-auto py-14 mt-[-2px]  " style={{ backgroundImage: `url(${flowChartBg})` }} id='Flowchart'>
+        <div className="flow-chart-bg hero  h-auto py-14 mt-[-2px]  " style={{ backgroundImage: `url(${collectionBgImg})` }} id='Flowchart'>
             <div className='absolute top-[-165px] right-0'>
                 <img src={shape02} className='w-[500px]' alt='' />
             </div>

@@ -12,28 +12,28 @@ const CoreValues = () => {
             icon: icon1,
             name: "Sustainability",
             title: "The Clix ecosystem is committed to promoting sustainability by investing in renewable energy sources such as solar farms. By supporting sustainable investments, Clix members can make a positive impact on the environment while earning returns on their investments.",
-            link: "https://www.google.com"
+            link: "https://clixpass.gitbook.io/clix-pass-whitepaper/"
         },
         {
             id: 2,
             icon: icon2,
             name: "Community",
             title: "Clix is more than just a financial platform, it's a global community of like-minded individuals who are passionate about innovation and financial freedom. By joining the Clix community, members have the opportunity to connect with other individuals and share knowledge and expertise.",
-            link: "https://www.google.com"
+            link: "https://clixpass.gitbook.io/clix-pass-whitepaper/"
         },
         {
             id: 3,
             icon: icon3,
             name: "Decentralization",
             title: "The Clix ecosystem is built on decentralized technology, which means that the governance of the platform is in the hands of the community. By holding the $CLIX token, members have a say in the direction of the platform and can contribute to its development and growth.",
-            link: "https://www.google.com"
+            link: "https://clixpass.gitbook.io/clix-pass-whitepaper/"
         },
         {
             id: 4,
             icon: icon4,
             name: "Financial Empowerment",
             title: "The Clix ecosystem empowers individuals to take control of their finances and invest in assets traditionally inaccessible to the average person. By holding a membership pass, individuals can access investment opportunities and earn income from these assets, creating a path to financial freedom.",
-            link: "https://www.google.com"
+            link: "https://clixpass.gitbook.io/clix-pass-whitepaper/"
         }
     ]
     return (

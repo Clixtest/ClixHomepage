@@ -22,10 +22,10 @@ const Banner = () => {
                             <p className=' pt-2 font-BeVietnam font-normal text-justify text-md opacity-70 leading-9'>Clix is a utility-endowed digital asset platform that operates on the Web 3 infrastructure. With Web3, Clix is able to offer a decentralized and transparent ecosystem that empowers users to own and control their digital assets, providing unprecedented financial freedom. The platform is committed to saving the environment with the help of every community member, and will partner with organizations and initiatives to help achieve this goal. By utilizing blockchain technology, Clix provides a secure, immutable, and tamper-proof ledger of transactions that enables users to engage in the new era of finance in a safe and trustless manner.
                             </p>
                             <div className="card-actions justify-start mt-6">
-                                <a href="https://www.google.com" target="_blank" rel="noopener noreferrer" className="w-full">
-                                    <button className="p-0 py-[8px] hover:bg-[#079E01] rounded-3xl w-full bg-[#079E01]">Introduction Video</button>
+                                <a href="https://testnets.opensea.io/collection/clix-testnet-v2" target="_blank" rel="noopener noreferrer" className="w-full">
+                                    <button className="p-0 py-[8px] hover:bg-[#079E01] rounded-3xl w-full bg-[#079E01]">Opensea</button>
                                 </a>
-                                <a href="https://www.google.com" target="_blank" rel="noopener noreferrer" className="w-full mt-7">
+                                <a href="https://clixpass.gitbook.io/clix-pass-whitepaper/" target="_blank" rel="noopener noreferrer" className="w-full mt-7">
                                     <button className="banner-button w-full">Whitepaper</button>
                                 </a>
                             </div>
@@ -33,10 +33,10 @@ const Banner = () => {
                         <div className='banner-border xm:hidden flex justify-center items-center'>
                             <div className=' flex gap-4 flex-col-reverse'>
                                 <span className=' banner-shape2'>
-                                    <a href="https://discord.com" target="_blank" rel="noopener noreferrer"><img src={socialIcon2} alt='' /></a>
+                                    <a href="https://discord.com/clixpass" target="_blank" rel="noopener noreferrer"><img src={socialIcon2} alt='' /></a>
                                 </span>
                                 <span className=' banner-shape1'>
-                                    <a href="https://twitter.com" target="_blank" rel="noopener noreferrer"><img src={socialIcon1} alt='' /></a>
+                                    <a href="https://twitter.com/clixpass" target="_blank" rel="noopener noreferrer"><img src={socialIcon1} alt='' /></a>
                                 </span>
                             </div>
                         </div>

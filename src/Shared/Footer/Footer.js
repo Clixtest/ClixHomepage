@@ -24,7 +24,6 @@ const Footer = () => {
                         <Link to="" className="link no-underline font-poppins font-normal text-[16px] leading-[24px]">About Us</Link>
                         <Link to="" className="link no-underline font-poppins font-normal text-[16px] leading-[24px]">Services</Link>
                         <Link to="" className="link no-underline font-poppins font-normal text-[16px] leading-[24px]">Our Team</Link>
-                        <Link to="" className="link no-underline font-poppins font-normal text-[16px] leading-[24px]">Login</Link>
                         <Link to="" className="link no-underline font-poppins font-normal text-[16px] leading-[24px]">Contact us</Link>
                     </div>
                     <div>
@@ -36,19 +35,16 @@ const Footer = () => {
                         <span className="footer-title opacity-100 font-poppins font-bold text-[22px] leading-[33px]">Contact Us</span>
                         <Link to="" className="link no-underline font-poppins font-normal flex justify-center items-center text-[16px] leading-[24px]"><span className=' mr-2'><img src={socialIcon1} alt='' /></span>hi@clixpass.com</Link>
                         <Link to="" className="link no-underline font-poppins font-normal flex justify-center items-center text-[16px] leading-[24px]"><span className=' mr-2'><img src={socialIcon2} alt='' /></span>www.clixpass.com</Link>
-                        <Link to="" className="link no-underline font-poppins font-normal flex justify-center items-center text-[16px] leading-[24px]"><span className=' mr-2'><img src={socialIcon4} alt='' /></span>Texas, US & New York, NY</Link>
+                        <Link to="" className="link no-underline font-poppins font-normal flex justify-center items-center text-[16px] leading-[24px]"><span className=' mr-2'><img src={socialIcon4} alt='' /></span>Texas, United States</Link>
                     </div>
                 </footer>
                 <footer className="footer py-4 border-t text-white bg-[#140F16]  border-base-300">
                     <div className="items-center grid-flow-col">
-                        <p>Copyright 2022. | All Right Reserved.</p>
+                        <p>Copyright © 2023. | ClixResearch | All Right Reserved.</p>
                     </div>
                     <div className="md:place-self-center md:justify-self-end">
                         <div className="grid grid-flow-col gap-4">
-                            <Link to=""><img src={socialIcon5} alt='' /></Link>
-                            <Link to=""><img src={socialIcon6} alt='' /></Link>
-                            <Link to=""><img src={socialIcon7} alt='' /></Link>
-                            <Link to=""><img src={socialIcon8} alt='' /></Link>
+                            <Link to="https://twitter.com/clixpass"><img src={socialIcon8} alt='' /></Link>
                         </div>
                     </div>
                 </footer>
