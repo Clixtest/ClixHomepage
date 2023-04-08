@@ -1,0 +1,351 @@
+.App {
+  text-align: center;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+div#root {
+  overflow: hidden;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+
+/* ======================  */
+
+
+.embedResponsive {
+  position: relative;
+  z-index: 2;
+  padding-bottom: 47.5%;
+}
+
+.embedVideo {
+  width: 100%;
+  max-width: 1240px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.aboutContainer {
+  display: block !important;
+}
+
+.embedResponsive iframe {
+  display: block;
+  position: absolute;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.position-relative {
+  position: relative;
+  z-index: 2;
+}
+
+.pointer-none {
+  pointer-events: none;
+}
+
+.teamSlider {
+  max-width: 1330px;
+  margin: 0 auto;
+}
+
+.teamCart.card.card-side {
+  height: 300px;
+  background: #FFFFFF;
+  box-shadow: 0px 4px 25px rgba(0, 0, 0, 0.15);
+  border-radius: 15px;
+  overflow: hidden;
+  flex-direction: unset !important;
+}
+
+.teamCart.card.card-side img.teamImage {
+  height: 100%;
+  width: 240px;
+  object-fit: cover;
+  object-position: center;
+}
+
+.teamCart.card.card-side .card-body {
+  background: #fff;
+  padding: 50px 20px 70px 20px;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+
+p.TeamAbout {
+  height: auto !important;
+  line-height: 1.5;
+}
+
+.teamCart.card.card-side .card-body h5 {
+  font-size: 20px;
+}
+
+.footerAbout {
+  max-width: 550px;
+}
+
+a.allcollection {
+  padding: 10px 12px  !important;
+}
+
+.gifCard .card {
+  border-radius: 0;
+}
+
+header.header_area {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  z-index: 9999;
+  background: #140f16ad;
+}
+
+.connectWallet {
+  color: #fff;
+}
+
+.responsiveMenuArea {
+  position: fixed;
+  top: 0;
+  left: -400px;
+  min-height: 100vh;
+  display: block;
+  width: 80%;
+  max-width: 350px;
+  background: #fff;
+  overflow: auto;
+  transition: .5s ease all;
+}
+
+.responsiveMenuArea .pt-14 {
+  padding: 0;
+}
+
+.responsiveMenuArea .menu-area {
+  width: auto;
+  max-height: 100vh;
+  overflow: auto;
+  background: #FFFFFF;
+  padding: 35px 25px;
+}
+
+ul.navbar-menu.inline-block.menu-horizontal li a {
+  display: block;
+  text-align: left;
+  font-size: 17px !important;
+  line-height: 1;
+  padding: 8px 0px;
+  margin-bottom: 3px;
+}
+
+.responsiveMenuArea .menu-area button.mt-4.font-inter {
+  margin-right: auto;
+  display: block;
+  margin-top: 20px;
+}
+
+.responsiveMenuArea .menu-area .flex.justify-center.mt-4 {
+  justify-content: flex-start;
+}
+
+.responsiveMenuArea.activeOpen {
+  top: 0 !important;
+  left: 0;
+}
+
+.raodmapBoxesMobile {
+  display: none !important;
+}
+
+.colltect_title {
+  text-align: center;
+  font-size: 28px;
+  color: #fff;
+  line-height: 1.5;
+  margin-bottom: 10px;
+}
+
+.qty_title {
+  text-align: center;
+  padding: 10px 0 0;
+  color: #fff;
+}
+
+@media only screen and (max-width: 1199px) {
+
+  .raodmapBoxesDesktop {
+    display: none !important;
+  }
+
+  .raodmapBoxesMobile {
+    display: block !important;
+  }
+
+  .raodmapBoxes.topRodmap {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -15px;
+}
+
+.roadampItem {
+    width: 50%;
+    padding: 0 15px;
+    margin: 0 0 70px 0;
+    flex-grow: 1;
+}
+
+.roadampItem> div {
+    width: 100%;
+    height: 100%;
+}
+
+
+}/* (max-width: 1199px) */
+
+@media only screen and (max-width: 1100px) {
+  .teamCart.card.card-side {
+      display: flex !important;
+      flex-direction: unset;
+  }
+
+  .teamCart.card.card-side .card-body {
+      width: 50% !important;
+      flex-grow: 1;
+  }
+
+  .teamCart.card.card-side img.teamImage {
+      width: 180px;
+  }
+
+  .teamCart.card.card-side .card-body h2.card-title {
+      font-size: 26px;
+  }
+
+  .teamCart.card.card-side .card-body h5 {
+      font-size: 16px;
+  }
+}
+/* (max-width: 1100px)  */
+
+
+@media only screen and (max-width: 991px) {
+  .bannerBg {
+      height: auto;
+      padding: 100px 50px 80px 0;
+      position: relative;
+      z-index: 1;
+  }
+
+  .banner-border {
+    position: absolute;
+    left: auto;
+    right: 0;
+    top: 100px;
+    right: 30px;
+    bottom: 70px;
+    height: auto;
+    display: flex !important;
+}
+
+  .font-BeVietnam.font-normal {
+      opacity: 1;
+      text-align: left;
+      line-height: 1.6;
+  }
+
+  .bannerBg {
+      background-position: 30%;
+  }
+}
+/* (max-width: 991px) */
+
+@media only screen and (max-width: 767px) {
+  .roadampItem {
+    width: 100%;
+  }
+
+  .productSlider ul.slick-dots {
+    margin-right: 40px !important;
+  }
+
+}
+/* (max-width: 767px)  */
+
+
+@media only screen and (max-width: 520px) {
+
+  .slick-dots {
+    transform: scale(.7);
+  }
+
+  .teamCart.card.card-side {
+    margin-bottom: 0 !important;
+  }
+
+  .teamCart.card.card-side img.teamImage {
+      width: 100%;
+      height: 250px;
+      object-position: top;
+  }
+
+  .teamCart.card.card-side {
+      flex-wrap: wrap;
+      flex-direction: column !important;
+      height: auto;
+  }
+
+  .teamCart.card.card-side .card-body {
+      width: 100% !important;
+      padding: 20px;
+  }
+
+  p.TeamAbout {
+      margin-bottom: 30px;
+  }
+}
+

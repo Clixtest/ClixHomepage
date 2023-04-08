@@ -1,0 +1,101 @@
+.roadmapBg {
+    background-image: url('../../../Assets/img/corebg.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.roadmapBg::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(20, 15, 22, 0.8);
+}
+
+.border-area {
+    background-color: white;
+    width: 100%;
+    height: 3px;
+}
+
+.shape1 {
+    position: relative;
+    left: 0;
+    top: -9px;
+    border-radius: 50px;
+    width: 20px;
+    height: 20px;
+    border: 3px solid #D9D9D9;
+}
+
+.shape1::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #079E01;
+    border-radius: 50px;
+}
+
+.roadmap-top-title {
+    position: relative;
+}
+
+.roadmap-top-title::before {
+    content: "";
+    position: absolute;
+    left: 110px;
+    top: 100%;
+    width: 80px;
+    height: 0px;
+    border: 1px solid white;
+}
+
+.shape {
+    width: 8px;
+    height: 8px;
+    background-color: #079E01;
+    display: inline-block;
+}
+
+.activeShapea .shapeA,
+.shapeA:hover {
+    background-color: #079E01;
+    color: #FFF;
+}
+
+.activeShapea .shapeA .text-area-shape,
+.shapeA:hover .text-area-shape {
+    opacity: 100%;
+}
+
+.activeShapea .shapeA .shape,
+.shapeA:hover .shape {
+    background-color: #FFF;
+}
+
+.roadampItem2 {
+    margin-top: 38px;
+}
+
+.roadampItem1 {
+    margin-top: 40px;
+}
+
+.raodmapBoxesArea .roadampItem h4 {
+    color: rgba(255, 255, 255, 0.2);
+}
+
+.raodmapBoxesArea .roadampItem:hover h4,
+.raodmapBoxesArea .activeShapea h4,
+.raodmapBoxesArea .activeShapea h4 {
+    color: rgba(255, 255, 255, 0.8);
+}
+
+

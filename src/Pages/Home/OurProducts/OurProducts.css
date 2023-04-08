@@ -1,0 +1,353 @@
+.our-product {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(../../../Assets/img/our-products.png);
+    position: relative;
+}
+
+.our-product::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(20, 15, 22, 0.8);
+}
+
+CSS For Slick Slider
+/* Note: Don't use slick-theme.css file */
+
+/* Adding margin between slides */
+.slick-list {
+    margin: 0 0px;
+}
+
+.slick-slide>div {
+    margin: 0 18px;
+}
+
+
+.slick-prev,
+.slick-next {
+    font-size: 0;
+    line-height: 0;
+    position: absolute;
+    top: -12%;
+    display: block;
+    width: 24px;
+    height: 44.47px;
+    padding: 0;
+    transform: translate(0, -50%);
+    cursor: pointer;
+    color: transparent;
+    border: none;
+    outline: none;
+    background: transparent;
+    z-index: 1;
+}
+
+.slick-prev:hover,
+.slick-prev:focus,
+.slick-next:hover,
+.slick-next:focus {
+    color: transparent;
+    outline: none;
+    background: transparent;
+}
+
+.slick-prev:hover:before,
+.slick-prev:focus:before,
+.slick-next:hover:before,
+.slick-next:focus:before {
+    opacity: 1;
+}
+
+.slick-prev.slick-disabled:before,
+.slick-next.slick-disabled:before {
+    opacity: .25;
+}
+
+.slick-prev:before,
+.slick-next:before {
+    display: none;
+}
+
+.slick-prev:before,
+.slick-next:before {
+    line-height: 1;
+    opacity: .75;
+    /* color: #333333; */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+[dir='rtl'] .slick-prev {
+    right: -25px;
+    left: auto;
+}
+
+.slick-next {
+    right: 105px;
+}
+
+[dir='rtl'] .slick-next {
+    right: auto;
+    left: -25px;
+}
+
+@media (min-width: 320px) {
+    .slick-prev {
+        left: 46%;
+        top: 6%;
+    }
+
+    .slick-next {
+        top: 6%;
+        right: 66px;
+    }
+}
+
+@media (min-width: 360px) {
+    .slick-prev {
+        left: 50%;
+        top: 6%;
+    }
+
+    .slick-next {
+        top: 6%;
+        right: 66px;
+    }
+}
+
+@media (min-width: 375px) {
+    .slick-prev {
+        left: 52%;
+        top: 6%;
+    }
+
+    .slick-next {
+        top: 6%;
+        right: 66px;
+    }
+}
+
+@media (min-width: 640px) {
+    .slick-prev {
+        left: 71%;
+    }
+
+    .slick-next {
+        right: 65px;
+    }
+}
+
+@media (min-width: 658px) {
+    .slick-prev {
+        left: 65%;
+    }
+
+    .slick-next {
+        right: 105px;
+    }
+}
+
+@media (min-width: 712px) {
+    .slick-prev {
+        left: 82%;
+        top: 4%;
+    }
+
+    .slick-next {
+        top: -8%;
+        right: 105px;
+    }
+}
+
+@media (min-width: 768px) {
+    .slick-prev {
+        left: 82%;
+        top: 2%;
+    }
+
+    .slick-next {
+        top: -12%;
+        right: 105px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .slick-prev {
+        left: 72%;
+        top: -12%;
+    }
+
+    .slick-next {
+        top: -12%;
+        right: 105px;
+    }
+}
+
+@media (min-width: 1280px) {
+    .slick-prev {
+        left: 77%;
+    }
+}
+
+@media (min-width: 1366px) {
+    .slick-prev {
+        left: 74%;
+    }
+}
+
+@media (min-width: 1536px) {
+    .slick-prev {
+        left: 77%;
+    }
+
+    .slick-next {
+        top: -12%;
+        right: 105px;
+    }
+}
+
+.slick-dots li {
+    position: relative;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin: 0 12px;
+    padding: 0;
+    cursor: pointer;
+}
+
+.slick-dots li button {
+    font-size: 0;
+    line-height: 0;
+    display: block;
+    width: 32px;
+    height: 32px;
+    padding: 5px;
+    cursor: pointer;
+    color: transparent;
+    border: 0;
+    outline: none;
+    border: 2px solid white;
+    border-radius: 50px;
+    position: relative;
+}
+
+.slick-dots li.slick-active button:before {
+    opacity: 100;
+}
+
+.slick-dots li button:hover:before,
+.slick-dots li button:focus:before {
+    opacity: 1;
+    color: green;
+}
+
+.slick-dots li button:before {
+    content: "";
+    width: 20px;
+    height: 20px;
+    background-color: green;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 5px;
+    top: 4px;
+}
+
+
+.products-top-title {
+    position: relative;
+}
+
+.products-top-title::before {
+    content: "";
+    position: absolute;
+    left: 120px;
+    top: 100%;
+    width: 80px;
+    height: 0px;
+    border: 1px solid white;
+}
+
+.productSlider .slick-list {
+    padding: 0 !important;
+}
+
+.productSlider ul.slick-dots {
+    position: unset;
+    margin-top: 80px;
+}
+
+.card.shadow-xl.sliderItem .card-body img {
+    width: 100%;
+}
+
+.productSlider .slick-slide>div {
+    margin: 0 0 0 0 !important;
+}
+
+.productSlider .slick-track {
+    display: flex;
+}
+
+
+.productSlider {
+    position: relative;
+    z-index: 1;
+    max-width: fit-content;
+    max-width: 690px;
+    margin: 0 auto;
+}
+
+img.productLaptop {
+    position: unset;
+    display: block;
+    width: 100% !important;
+    pointer-events: none;
+    position: relative;
+    z-index: 2;
+}
+
+.productSliderInner {
+    display: block;
+    position: relative;
+    z-index: 1;
+    max-width: 77%;
+    position: absolute;
+    top: 5%;
+    left: 12%;
+}
+
+.productSliderInner button.slick-arrow {
+    display: none !important;
+}
+
+.productSliderInner .slick-list {
+    overflow: unset;
+}
+
+.productSliderInner .slick-list .slick-slide {
+    transform: scale(.85);
+}
+
+.productSliderInner .slick-list .slick-slide.slick-active.slick-current {
+    transform: scale(1);
+}
+
+
+@media only screen and (max-width: 767px) {
+  
+    .productSlider ul.slick-dots {
+      margin-top: 40px !important;
+    }
+  
+}
+/* (max-width: 767px)  */
+  
